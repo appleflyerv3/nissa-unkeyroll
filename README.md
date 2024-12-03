@@ -33,7 +33,7 @@ curl -LO appleflyer.xyz/nuk.sh && chmod +x nuk.sh && sudo bash nuk.sh
 ```
 you have successfully "un-keyrolled". 
 
-## step 3: disable HWWP and SWP(hardware write protect, software write protect. optional step)
-now just disable swwp with `gsctool -a -w disable` , and disable swp with `flashrom --wp-disable`.
+## step 3: re-enable HWWP and SWP(hardware write protect, software write protect. optional step)
+now just enable swwp with `gsctool -a -w enable` , and enable swp with `flashrom --wp-enable`.
 
 ur done, go and boot a shim or whatever.
